@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* thông thường 1 rem = 16px
+cần quy đổi tính tỷ lệ để 1 rem = 10px
+10/16 * 100 = 62,5%
+cần giảm font size của html xuống 62,5% */
+/* bài 56 */
+body{
+    font-size: 1.6rem;
+}
