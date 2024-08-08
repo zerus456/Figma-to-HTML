@@ -21,6 +21,15 @@ body{
 a{
     text-decoration: none;
 }
+.heading-lv2{
+    color: #171100;
+
+    font-family: var(--font-heading);
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 127%; /* 126.316% */
+    letter-spacing: -0.76px;
+}
 .btn{
 display: inline-block;
 min-width: 118px;
@@ -283,4 +292,47 @@ line-height: 123%;
 }
 .hero .stats{
     margin-top: 8px;
+}
+/* popular */
+.popular{
+    /* display: flex; */
+    padding: 65px 0;
+    margin-top: 135px;
+}
+.popular-top .desc{
+    margin-top: 16px;
+    width: 458px;
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 167%; /* 166.667% */
+}
+.popular-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular-top .controls{
+    display: flex;
+    gap: 18px;
+
+}
+
+
+
+.popular-top .control-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    border: 1px solid #FFB900;
+}
+.popular-top .control-btn:hover{
+    background: var(--primary-color);
+    color: #FFF;
+    cursor: pointer;
 }
